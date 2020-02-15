@@ -25,7 +25,7 @@ from linebot import (
 
 class TestLineBotApi(unittest.TestCase):
     def setUp(self):
-        self.tested = LineBotApi('channel_secret')
+        self.tested = LineBotApi('99f1907ec0feea222a1959476e49101a')
 
     @responses.activate
     def test_get_group_member_ids(self):
