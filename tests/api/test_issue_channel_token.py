@@ -32,9 +32,9 @@ else:
 
 class TestLineBotApi(unittest.TestCase):
     def setUp(self):
-        self.tested = LineBotApi('channel_secret')
+        self.tested = LineBotApi('99f1907ec0feea222a1959476e49101a')
         self.endpoint = LineBotApi.DEFAULT_API_ENDPOINT + '/v2/oauth/accessToken'
-        self.access_token = "W1TeHCgfH2Liwa....."
+        self.access_token = "kY/nkYBqI+Hd7fHvG9tffYqcD0CKZSfxLQF/6a66T9b0u2TWx5XyyJG3yimtr5dIuJ466fwYybcctEcgLi+k4MYQq1U9sISOxyfy2Zi7w2VR5vDj8r2UfThNduMjO0GkQ22JP3ns6FVkF74e/8slYAdB04t89/1O/w1cDnyilFU="
         self.expires_in = 2592000
         self.token_type = "Bearer"
         self.client_id = 'client_id'
